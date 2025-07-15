@@ -11,7 +11,7 @@ cmd(
     filename: __filename,
   },
   async (
-    danuwa,
+    chamiya,
     mek,
     m,
     {
