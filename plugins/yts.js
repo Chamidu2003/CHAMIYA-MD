@@ -11,7 +11,7 @@ cmd(
     filename: __filename,
   },
   async (
-    danuwa,
+    chamiya,
     mek,
     m,
     {
@@ -38,17 +38,17 @@ cmd(
       )).join("\n\n");
 
       const caption = `  
-Your youtube search results
+*_Your youtube search results
 ─────────────────────────
 🔎 *Query*: ${q}
 ${formattedResults}
    `;
 
-      await danuwa.sendMessage(
+      await chamiya.sendMessage(
         from,
         {
           image: {
-            url: "https://github.com/DANUWA-MD/DANUWA-MD/blob/main/images/yts.png?raw=true",
+            url: "https://github.com/Chamidu2003/CHAMIYA-MD/blob/main/images/POWERFULl.png?raw=true",
           },
           caption,
         },
