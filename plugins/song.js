@@ -94,7 +94,7 @@ Song downloader
         { quoted: mek }
       );
 
-      return reply("✅ Thank you");
+      return reply("✅ Thank for using CHAMIYA-MD");
     } catch (e) {
       console.log(e);
       reply(`❌ *Error:* ${e.message} 😞`);
